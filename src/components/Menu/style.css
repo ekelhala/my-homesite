@@ -1,0 +1,27 @@
+.menu-item {
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 15px;
+    transition-property: color;
+    transition-duration: 400ms;
+}
+.menu-item:hover {
+    color: #000000;
+}
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    background: rgba(0,0,0,0.6);
+}
+.menu-hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+.menu-visible {
+    visibility: visible;
+    pointer-events: initial;
+}
