@@ -18,9 +18,9 @@ class Content extends React.Component {
                         <RoundImage/>
                         <BasicText textSize="20px" textColor="#ffffff">Who am I?</BasicText>
                         <div style={{width: "50%", rowGap: "5px"}}>
-                        <BasicText textSize="17px" textColor="#ffffff">My name is Emil, I am 21
+                        <BasicText textSize="17px" textColor="#ffffff">I am Emil, a 21
                         years old university student from Finland. From young age I have been fascinated
-                        by computers and later on programming. I love trying new things in my personal as well
+                        by computers and programming. I love trying new things in my personal as well
                         as in my professional life. This drive to learn and explore has helped me develop a habit
                         of educating myself constantly. So far I have made projects in Java, Python, React (even this 
                         website!) and Android.</BasicText>

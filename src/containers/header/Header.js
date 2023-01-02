@@ -15,7 +15,7 @@ class Header extends React.Component {
             <ContentContainer>
                 <BasicText textColor={"#ffffff"} textSize={"19px"}>My name is</BasicText>
                 <BasicText textColor={"#ffffff"} textSize={"45px"}>Emil Kelhälä</BasicText>
-                <BasicText textColor={"#ffffff"} textSize={"19px"}>I create digital things for everyone</BasicText>
+                <BasicText textColor={"#ffffff"} textSize={"19px"}>I create digital things</BasicText>
             </ContentContainer>
             </div>
         </div>

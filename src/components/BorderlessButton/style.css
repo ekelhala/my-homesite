@@ -1,0 +1,10 @@
+.borderless-button {
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Tahoma;
+    border: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
