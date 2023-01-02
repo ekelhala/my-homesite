@@ -1,0 +1,11 @@
+@keyframes updown {
+    0% {bottom: 0px;}
+    50% {bottom: -10px;}
+    100% {bottom: 0px;}
+}
+
+.explore-button {
+    animation: updown 1.5s infinite forwards;
+    animation-timing-function: linear;
+    position: relative;
+}
