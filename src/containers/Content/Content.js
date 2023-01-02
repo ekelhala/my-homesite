@@ -3,7 +3,6 @@ import React from "react";
 import {ContentContainer, VerticalContentContainer} from "../../containers"
 import { BasicText, Button, RoundImage } from "../../components";
 import {FaLinkedinIn, FaGithub, FaInstagram} from "react-icons/fa";
-import { ImCircleDown } from "react-icons/im";
 
 class Content extends React.Component {
 
@@ -33,12 +32,6 @@ class Content extends React.Component {
                             <Button onClick={()=>window.location.href = this.instagramLink}><FaInstagram size={"1.3em"}/></Button>
                         </VerticalContentContainer>
                         <div style={{height: "50px", width: "100%"}}/>
-                        <Button onClick={() => {
-                            this.props.titleChangeFunc(1);
-                            this.props.projectsRef.current.scrollIntoView();
-                        }}>
-                            <ImCircleDown size={"1.2em"}/>
-                        </Button>
                     </ContentContainer>
             </div>
         );
